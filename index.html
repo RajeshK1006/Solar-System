@@ -7,10 +7,35 @@
     </head>
     <body>
         <div id="root"></div>
-        <audio autoplay loop>
+        <audio id="bg-music" autoplay loop>
             <source src="bg-music.mp3" type="audio/mp3" />
             Your browser does not support the audio element.
         </audio>
+
+        <script>
+            const audioElement = document.getElementById("bg-music");
+
+            // Function to start the audio after user interaction
+            const startMusic = () => {
+                // Try playing the audio
+                audioElement.play().catch((err) => {
+                    console.error("Audio playback failed:", err);
+                });
+            }
+
+            // Listen for user interaction to start music
+            window.addEventListener("click", startMusic);
+            window.addEventListener("keydown", startMusic); // For keyboard interaction
+            window.addEventListener("load", () => {
+                // Auto-play after a slight delay to handle reload
+                setTimeout(() => {
+                    audioElement.play().catch((err) => {
+                        console.error("Audio playback failed:", err);
+                    });
+                }, 1000); // Delay in milliseconds (1 second)
+            });
+        </script>
         <script type="module" src="/main.jsx"></script>
+        
     </body>
 </html>
