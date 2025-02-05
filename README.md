@@ -69,6 +69,14 @@ Now that you're ready to travel through space, enjoy your **3D Solar System** an
 
 ---
 
+## Notes
+![image](https://github.com/user-attachments/assets/faa3b058-a0c8-486e-8c91-5f9b6c53cc45)
+![image](https://github.com/user-attachments/assets/28aa4ab9-6f74-4254-851a-cc65edd6528f)
+![image](https://github.com/user-attachments/assets/a0890ef8-4b31-42f2-bc27-b73f8944e9f6)
+
+
+
+
 ## 📚 License
 
 This project is licensed under the MIT License – feel free to fork, clone, and create your own cosmic creations! 🌙✨
